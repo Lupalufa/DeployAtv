@@ -1,0 +1,472 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif; 
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    background: linear-gradient(180deg, #191E29 0%, #132D46 53%);
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.container > main {
+    flex: 1;
+}
+
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+
+header > h1 {
+    margin-left: 10px;
+    font-family: "M PLUS 2";
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a {
+    font-size: 20px;
+    font-family: "Inter";
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: 100ms;
+    transition: 300ms;
+}
+
+.navbar a:hover,
+.navbar a:active{
+    color:#01C38D
+}
+
+
+.navbar {
+    margin-right: 35px;
+}   
+
+.circulo {
+    width: 313px; 
+    height: 311px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: #01C38D; 
+    box-shadow: 400px 400px 400px; 
+    border-radius: 9999px; 
+    filter: blur(400px)
+}
+
+.logo-login {
+    width: 313px; 
+    height: 311px; 
+    position: absolute;
+    top: 50px;
+}
+
+.circulo-login {
+    right: 20px;
+    width: 313px; 
+    height: 311px; 
+    left: 0px; 
+    top: 50%; 
+    position: absolute; 
+    background: #01C38D; 
+    box-shadow: 400px 400px 400px; 
+    border-radius: 9999px; 
+    filter: blur(400px)
+}
+
+.cifrao {
+    width: 78px; 
+    height: 196.73px; 
+    left: 120px; 
+    top: 44.71px; 
+    position: absolute; 
+    color: #01C38D; 
+    font-size: 128px; 
+    font-family: Kdam Thmor Pro; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+
+.financas {
+    width: 308px; 
+    height: 48.69px; 
+    left: 5px; 
+    top: 218.59px; 
+    position: absolute; 
+    color: #01C38D; 
+    font-size: 32px; 
+    font-family: Kdam Thmor Pro; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+
+.logo {
+    display: flex;
+    width: 313px; 
+    height: 311px; 
+    position: relative
+}
+
+
+.logo {
+    margin: auto;
+}
+
+.titulo {
+    color: #01C38D; 
+    font-size: 36px; 
+    font-family: Inter; 
+    font-weight: 700; 
+    word-wrap: break-word;
+    margin-left: 70px;
+}
+
+.info {
+    width: 1181px; 
+    height: 174px; 
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.descricao {
+    width: 671px; 
+    height: 174px; 
+    left: 510px; 
+    top: 0px; 
+    position: absolute; 
+    color: white; 
+    font-size: 24px; 
+    font-family: Inter; 
+    font-weight: 500; 
+    word-wrap: break-word;
+}
+
+.funcionalidades {
+    width: 1367px; 
+    height: 540px; 
+    position: relative;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.contain1 {
+    width: 424px; 
+    height: 254px; 
+    left: 943px; 
+    top: 143px; 
+    position: absolute;
+    transition: all ease-in-out 0.3s;
+}
+
+.contain2 {
+    width: 424px; 
+    height: 254px; 
+    left: 472px; 
+    top: 143px; 
+    position: absolute;
+    transition: all ease-in-out 0.3s;
+}
+
+.contain3 {
+    width: 424px; 
+    height: 254px; 
+    left: 0px; 
+    top: 143px; 
+    position: absolute;
+    transition: all ease-in-out 0.3s;
+}
+
+.card1 {
+    width: 424px; 
+    height: 254px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: #D9D9D9; 
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.contain:hover {
+    transform: scale(1.1);
+    transition: 200ms;
+    transition: all ease-in-out 0.3s;
+}
+
+.card2{
+    width: 424px; 
+    height: 254px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: #D9D9D9; 
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card3 {
+    width: 424px; 
+    height: 254px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: #D9D9D9; 
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.titulos1 {
+    left: 61px; 
+    top: 21px; 
+    position: absolute; 
+    color: #132D46; 
+    font-size: 30px; 
+    font-family: Arial; 
+    font-weight: bold; 
+    word-wrap: break-word;
+}
+
+.titulos2 {
+    left: 37px; 
+    top: 21px; 
+    position: absolute; 
+    color: #132D46; 
+    font-size: 30px; 
+    font-family: Arial; 
+    font-weight: bold; 
+    word-wrap: break-word;
+}
+
+.titulos3 {
+    left: 77px; 
+    top: 21px; 
+    position: absolute; 
+    color: #132D46; 
+    font-size: 30px; 
+    font-family: Arial; 
+    font-weight: bold;
+    word-wrap: break-word;
+}
+
+.description1 {
+    width: 299px; 
+    left: 62px; 
+    top: 82px; 
+    position: absolute; 
+    color: black; 
+    font-size: 18px; 
+    font-family: Arial; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+
+.description2 {
+    width: 299px; 
+    left: 62px; 
+    top: 86px; 
+    position: absolute; 
+    color: black; 
+    font-size: 18px; 
+    font-family: Arial; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+
+.description3 {
+    width: 299px; 
+    left: 62px; 
+    top: 82px; 
+    position: absolute; 
+    color: black; 
+    font-size: 18px; 
+    font-family: Arial; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+
+.principal {
+    left: 525px; 
+    top: 0px; 
+    position: absolute; 
+    color: white; 
+    font-size: 40px; 
+    font-family: M PLUS 2; 
+    font-weight: 800; 
+    word-wrap: break-word;
+}
+
+.geral {
+    display: flex;
+    justify-content: center;
+}
+
+.geral-login {
+    display: flex;
+    justify-content: center;
+    margin: 150px 0 70px ;
+
+}
+
+.registrar {
+    width: 420px;
+    background-color: transparent;
+    color: white;
+    padding: 30px 40px;
+    font-family: M PLUS 2;
+    border: 2px solid #999999;
+    border-radius: 20px;
+    margin-bottom: 100px;
+}
+
+.registrar-login {
+    width: 420px;
+    background-color: transparent;
+    color: white;
+    padding: 30px 40px;
+    font-family: M PLUS 2;
+    border: 2px solid #999999;
+    border-radius: 20px;
+    margin-bottom: 100px;
+}
+
+.registrar > form > h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+.registrar-login > form > h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+.input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0px;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 15px;
+    outline: none;
+    font-size: 16px;
+    color: white;
+    padding: 20px 35px 20px 20px;
+}
+
+.input-box input::placeholder {
+    color: rgb(189, 189, 189);
+}
+
+.remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    margin: -15px 0 15px;
+}
+
+.remember-forgot label input {
+    accent-color: white;
+    margin-right: 5px;
+}
+
+.remember-forgot a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+.login {
+    width: 100%;
+    height: 50px;
+    background-color: #01C38D; 
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    margin-top: 10px;
+}
+
+.login:hover{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    transition: 500ms;
+}
+
+.login-link {
+    font-size: 14px;
+    text-align: center;
+    margin: 20px 0 25px;
+}
+
+.login-link a {
+    text-decoration: none;
+    color: #01C38D; 
+    font-weight: 600;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+/* --------------------------------------------- Footer --------------------------------------------- */
+footer {
+    display: flex;
+    gap: 30px;
+    background-color: #191E29;
+    padding: 40px 0 40px;
+}
+
+.contato {
+    margin-left: 50px;
+}
+
+.contato > h3 {
+    margin: 10px;
+}
+
+.contato > p {
+    margin: 10px;
+}
+
+
+.suporte > h3{
+    margin: 10px;
+}
+
+.suporte > p{
+    margin: 10px;
+}
