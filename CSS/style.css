@@ -18,7 +18,7 @@ body {
 }
 
 header {
-    padding: 20px;
+    padding: 1.25rem;
     display: flex;
     justify-content: space-between;
     position: sticky;
@@ -26,21 +26,21 @@ header {
 }
 
 header > h1 {
-    margin-left: 10px;
+    margin-left: 0.625rem;
     font-family: "M PLUS 2";
-    font-size: 25px;
+    font-size: 1.563rem;
     color: #ededed;
     text-decoration: none;
     font-weight: 600;
 }
 
 .navbar a {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: "Inter";
     color: #ededed;
     text-decoration: none;
     font-weight: 500;
-    margin-left: 35px;
+    margin-left: 2.188rem;
     transition: 100ms;
     transition: 300ms;
 }
@@ -52,62 +52,62 @@ header > h1 {
 
 
 .navbar {
-    margin-right: 35px;
+    margin-right: 2.188rem;
 }   
 
 .circulo {
-    width: 313px; 
-    height: 311px; 
+    width: 19.563rem; 
+    height: 19.438rem; 
     left: 0px; 
     top: 0px; 
     position: absolute; 
     background: #01C38D; 
-    box-shadow: 400px 400px 400px; 
-    border-radius: 9999px; 
-    filter: blur(400px)
+    box-shadow: 25rem 25rem 25rem; 
+    border-radius: 624.938rem; 
+    filter: blur(25rem)
 }
 
 .logo-login {
-    width: 313px; 
-    height: 311px; 
+    width: 19.563rem; 
+    height: 19.438rem; 
     position: absolute;
-    top: 50px;
+    top: 3.125rem;
 }
 
 .circulo-login {
-    right: 20px;
-    width: 313px; 
-    height: 311px; 
+    right: 1.25rem;
+    width: 19.563rem; 
+    height: 19.438rem; 
     left: 0px; 
     top: 50%; 
     position: absolute; 
     background: #01C38D; 
-    box-shadow: 400px 400px 400px; 
-    border-radius: 9999px; 
-    filter: blur(400px)
+    box-shadow: 25rem 25rem 25rem; 
+    border-radius: 624.938rem;  
+    filter: blur(25rem)
 }
 
 .cifrao {
-    width: 78px; 
-    height: 196.73px; 
-    left: 120px; 
-    top: 44.71px; 
+    width: 4.875rem; 
+    height: 12.296rem; 
+    left: 7.5rem; 
+    top: 2.794rem; 
     position: absolute; 
     color: #01C38D; 
-    font-size: 128px; 
+    font-size: 8rem; 
     font-family: Kdam Thmor Pro; 
     font-weight: 400; 
     word-wrap: break-word
 }
 
 .financas {
-    width: 308px; 
-    height: 48.69px; 
-    left: 5px; 
-    top: 218.59px; 
+    width: 19.25rem; 
+    height: 3.043rem; 
+    left: 0.313rem; 
+    top: 13.662rem; 
     position: absolute; 
     color: #01C38D; 
-    font-size: 32px; 
+    font-size: 2rem; 
     font-family: Kdam Thmor Pro; 
     font-weight: 400; 
     word-wrap: break-word
@@ -115,8 +115,8 @@ header > h1 {
 
 .logo {
     display: flex;
-    width: 313px; 
-    height: 311px; 
+    width: 19.563rem; 
+    height: 19.438rem; 
     position: relative
 }
 
@@ -127,78 +127,78 @@ header > h1 {
 
 .titulo {
     color: #01C38D; 
-    font-size: 36px; 
+    font-size: 2.25rem; 
     font-family: Inter; 
     font-weight: 700; 
     word-wrap: break-word;
-    margin-left: 70px;
+    margin-left: 4.375rem;
 }
 
 .info {
-    width: 1181px; 
-    height: 174px; 
+    width: 73.813rem; 
+    height: 10.875rem; 
     position: relative;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 3.125rem;
 }
 
 .descricao {
-    width: 671px; 
-    height: 174px; 
-    left: 510px; 
+    width: 41.938rem; 
+    height: 10.875rem; 
+    left: 31.875rem; 
     top: 0px; 
     position: absolute; 
     color: white; 
-    font-size: 24px; 
+    font-size: 1.5rem; 
     font-family: Inter; 
     font-weight: 500; 
     word-wrap: break-word;
 }
 
 .funcionalidades {
-    width: 1367px; 
-    height: 540px; 
+    width: 85.5rem; 
+    height: 33.75rem; 
     position: relative;
     margin: auto;
-    margin-top: 150px;
+    margin-top: 9.375rem;
 }
 
 .contain1 {
-    width: 424px; 
-    height: 254px; 
-    left: 943px; 
-    top: 143px; 
+    width: 26.5rem; 
+    height: 15.875rem; 
+    left: 58.938rem; 
+    top: 8.938rem; 
     position: absolute;
     transition: all ease-in-out 0.3s;
 }
 
 .contain2 {
-    width: 424px; 
-    height: 254px; 
-    left: 472px; 
-    top: 143px; 
+    width: 26.5rem; 
+    height: 15.875rem; 
+    left: 29.5rem; 
+    top: 8.938rem; 
     position: absolute;
     transition: all ease-in-out 0.3s;
 }
 
 .contain3 {
-    width: 424px; 
-    height: 254px; 
+    width: 26.5rem; 
+    height: 15.875rem; 
     left: 0px; 
-    top: 143px; 
+    top: 8.938rem; 
     position: absolute;
     transition: all ease-in-out 0.3s;
 }
 
 .card1 {
-    width: 424px; 
-    height: 254px; 
+    width: 26.5rem; 
+    height: 15.875rem; 
     left: 0px; 
     top: 0px; 
     position: absolute; 
     background: #D9D9D9; 
-    border-radius: 15px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 0.938rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0.313rem 0.938rem;
 }
 
 .contain:hover {
@@ -208,103 +208,103 @@ header > h1 {
 }
 
 .card2{
-    width: 424px; 
-    height: 254px; 
+    width: 26.5rem; 
+    height: 15.875rem; 
     left: 0px; 
     top: 0px; 
     position: absolute; 
     background: #D9D9D9; 
-    border-radius: 15px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 0.938rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0.313rem 0.938rem;
 }
 
 .card3 {
-    width: 424px; 
-    height: 254px; 
+    width: 26.5rem; 
+    height: 15.875rem; 
     left: 0px; 
     top: 0px; 
     position: absolute; 
     background: #D9D9D9; 
-    border-radius: 15px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 0.938rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0.313rem 0.938rem;
 }
 
 
 .titulos1 {
-    left: 61px; 
-    top: 21px; 
+    left: 3.813rem; 
+    top: 1.313rem; 
     position: absolute; 
     color: #132D46; 
-    font-size: 30px; 
+    font-size: 1.875rem; 
     font-family: Arial; 
     font-weight: bold; 
     word-wrap: break-word;
 }
 
 .titulos2 {
-    left: 37px; 
-    top: 21px; 
+    left: 2.313rem; 
+    top: 1.313rem; 
     position: absolute; 
     color: #132D46; 
-    font-size: 30px; 
+    font-size: 1.875; 
     font-family: Arial; 
     font-weight: bold; 
     word-wrap: break-word;
 }
 
 .titulos3 {
-    left: 77px; 
-    top: 21px; 
+    left: 4.813rem; 
+    top: 1.313rem; 
     position: absolute; 
     color: #132D46; 
-    font-size: 30px; 
+    font-size: 1.875rem; 
     font-family: Arial; 
     font-weight: bold;
     word-wrap: break-word;
 }
 
 .description1 {
-    width: 299px; 
-    left: 62px; 
-    top: 82px; 
+    width: 18.688rem; 
+    left: 3.875rem; 
+    top: 5.125rem; 
     position: absolute; 
     color: black; 
-    font-size: 18px; 
+    font-size: 1.125rem; 
     font-family: Arial; 
     font-weight: 400; 
     word-wrap: break-word;
 }
 
 .description2 {
-    width: 299px; 
-    left: 62px; 
-    top: 86px; 
+    width: 18.688rem; 
+    left: 3.875rem; 
+    top: 5.375rem; 
     position: absolute; 
     color: black; 
-    font-size: 18px; 
+    font-size: 1.125rem; 
     font-family: Arial; 
     font-weight: 400; 
     word-wrap: break-word;
 }
 
 .description3 {
-    width: 299px; 
-    left: 62px; 
-    top: 82px; 
+    width: 18.688rem; 
+    left: 3.875rem; 
+    top: 5.125rem; 
     position: absolute; 
     color: black; 
-    font-size: 18px; 
+    font-size: 1.125rem; 
     font-family: Arial; 
     font-weight: 400; 
     word-wrap: break-word;
 }
 
 .principal {
-    left: 525px; 
+    left: 32.813rem; 
     top: 0px; 
     position: absolute; 
     color: white; 
-    font-size: 40px; 
+    font-size: 2.5rem; 
     font-family: M PLUS 2; 
     font-weight: 800; 
     word-wrap: break-word;
@@ -318,59 +318,59 @@ header > h1 {
 .geral-login {
     display: flex;
     justify-content: center;
-    margin: 150px 0 70px ;
+    margin: 9.375rem 0 4.375rem;
 
 }
 
 .registrar {
-    width: 420px;
+    width: 26.25rem;
     background-color: transparent;
     color: white;
-    padding: 30px 40px;
+    padding: 1.875rem 2.5rem;
     font-family: M PLUS 2;
-    border: 2px solid #999999;
-    border-radius: 20px;
-    margin-bottom: 100px;
+    border: 0.125rem solid #999999;
+    border-radius: 1.25rem;
+    margin-bottom: 6.25rem;
 }
 
 .registrar-login {
-    width: 420px;
+    width: 26.25rem;
     background-color: transparent;
     color: white;
-    padding: 30px 40px;
+    padding: 1.875rem 2.5rem;
     font-family: M PLUS 2;
-    border: 2px solid #999999;
-    border-radius: 20px;
-    margin-bottom: 100px;
+    border: 0.125rem solid #999999;
+    border-radius: 1.25rem;
+    margin-bottom: 6.25rem;
 }
 
 .registrar > form > h1{
-    font-size: 30px;
+    font-size: 1.875rem;
     text-align: center;
 }
 
 .registrar-login > form > h1{
-    font-size: 30px;
+    font-size: 1.875rem;
     text-align: center;
 }
 
 .input-box {
     position: relative;
     width: 100%;
-    height: 50px;
-    margin: 30px 0px;
+    height: 3.125rem;
+    margin: 1.875rem 0px;
 }
 
 .input-box input {
     width: 100%;
     height: 100%;
     background-color: transparent;
-    border: 2px solid white;
-    border-radius: 15px;
+    border: 0.125rem solid white;
+    border-radius: 0.938rem;
     outline: none;
-    font-size: 16px;
+    font-size: 1rem;
     color: white;
-    padding: 20px 35px 20px 20px;
+    padding: 1.25rem 2.188rem 1.25rem 1.25rem;
 }
 
 .input-box input::placeholder {
@@ -380,12 +380,12 @@ header > h1 {
 .remember-forgot{
     display: flex;
     justify-content: space-between;
-    margin: -15px 0 15px;
+    margin: -0.938rem 0 0.938rem;
 }
 
 .remember-forgot label input {
     accent-color: white;
-    margin-right: 5px;
+    margin-right: 0.313rem;
 }
 
 .remember-forgot a {
@@ -400,29 +400,29 @@ header > h1 {
 
 .login {
     width: 100%;
-    height: 50px;
+    height: 3.125rem;
     background-color: #01C38D; 
     border: none;
-    border-radius: 15px;
+    border-radius: 0.938rem;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 1rem;
     color: white;
     font-weight: 600;
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 0.625rem 1.25rem, rgba(0, 0, 0, 0.23) 0px 0.375rem 0.375rem;
+    margin-top: 0.625rem;
 }
 
 .login:hover{
     background-color: transparent;
-    border: 2px solid white;
+    border: 0.125rem solid white;
     color: white;
     transition: 500ms;
 }
 
 .login-link {
-    font-size: 14px;
+    font-size: 0.875rem;
     text-align: center;
-    margin: 20px 0 25px;
+    margin: 1.25rem 0 1.563rem;
 }
 
 .login-link a {
@@ -445,28 +445,28 @@ header > h1 {
 /* --------------------------------------------- Footer --------------------------------------------- */
 footer {
     display: flex;
-    gap: 30px;
+    gap: 1.875rem;
     background-color: #191E29;
-    padding: 40px 0 40px;
+    padding: 2.5rem 0 2.5rem;
 }
 
 .contato {
-    margin-left: 50px;
+    margin-left: 3.125rem;
 }
 
 .contato > h3 {
-    margin: 10px;
+    margin: 0.625rem;
 }
 
 .contato > p {
-    margin: 10px;
+    margin: 0.625rem;
 }
 
 
 .suporte > h3{
-    margin: 10px;
+    margin: 0.625rem;
 }
 
 .suporte > p{
-    margin: 10px;
+    margin: 0.625rem;
 }
